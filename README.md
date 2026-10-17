@@ -108,8 +108,24 @@ After testing four articles, the session dashboard showed one positive, one neut
 
 > **Screenshot filenames:** The paths above assume your first three files end with `.png` and are inside `screenshots/`. GitHub paths are case-sensitive. If their actual extensions are `.jpg` or `.jpeg`, or their capitalization differs, update the paths to match the repository exactly.
 
-## Files to Submit
 
-- `AI_Finance_Analyzer_Advanced.ipynb` — Python notebook with the project code and Gradio application
-- `README.md` — instructions and project explanation
-- `screenshots/` — screenshots of the positive, negative, neutral-style, and dashboard tests
+
+
+
+## Open in Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ElhamTimory/AI-Finance-Analyzer/blob/main/AI_Finance_Analyzer_Advanced.ipynb)
+
+Click the button above to open the project in Google Colab.
+
+### How to Run
+1. Open the notebook using the Colab button.
+2. Select Runtime > Change runtime type.
+3. Choose T4 GPU if available.
+4. Select Runtime > Run all.
+5. Wait for the Qwen model and Gradio interface to load.
+6. Use the Gradio application to analyze financial articles.
+
+**Note:** The Gradio application does not run directly inside
+GitHub. It requires an active Google Colab session.
+
